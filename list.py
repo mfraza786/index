@@ -1,0 +1,25 @@
+#define list of names
+names = ["Hari","Shankar","Prashad"]
+#simply Print Names:
+print(names)
+print("# Print List First name Names[0]")
+print(names[0])
+print()
+
+add = input(" Add new name in the list--:")
+names.append(add)
+print("# Add new name Via Input function.", names)
+print()
+print("# Add New Predefine name Via Append function.")
+names.append ("Dipak")
+print()
+print("list of name after add new name:", names)
+print()
+names.sort()
+print("# print the list of names via sort Function.", names)
+print()
+names.reverse()
+print(" Print list after Reverse function name in the List: ", names)
+print()
+names.remove("Hari")
+print(" Print list after Remove function name in the List: ", names)
